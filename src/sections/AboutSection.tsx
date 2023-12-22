@@ -19,10 +19,7 @@ const AboutSection = () => {
             We work hand in hand with our customers in the design of spaces and
             furniture, the preparation of cutting lists and bills of quantity,
             the manufacturing process, the installation and after sales
-            services. We work hand in hand with our customers in the design of
-            spaces and furniture, the preparation of cutting lists and bills of
-            quantity, the manufacturing process, the installation and after
-            sales services.
+            services.
           </p>
         </div>
         <div className="grid grid-cols-2 w-[55%] gap-x-6 items-center">
