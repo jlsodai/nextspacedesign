@@ -52,7 +52,7 @@ const HeroSection = ({ links }: Props) => {
             />
           </Link>
           <div className="-sm:hidden my-3">
-            <div className="text-right mb-2">Call Us: +233 2 05 02 1111</div>
+            <div className="text-right mb-2">Call Us: +233 20 502 1111</div>
             <div className="flex -sm:mt-8 text-primary -sm:justify-center space-x-12 mb-4 divide-x font-bold">
               {/* {links.map((link, i) => (
                 <Link
