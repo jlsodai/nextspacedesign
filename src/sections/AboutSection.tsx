@@ -14,6 +14,13 @@ const AboutSection = () => {
             and manufacturing. We also provide a pool of specialists for all
             your customized needs for finishing and refurbishment.
           </p>
+
+          <h2 className="mt-8 mb-4">Our Core Activity</h2>
+          <p>
+            We are manufacturers of wood solutions for all kinds of spaces:
+            cabinetry, furniture and all carpentry designs.{" "}
+          </p>
+
           <h2 className="mt-8 mb-4">Project Management</h2>
           <p>
             We work hand in hand with our customers in the design of spaces and
@@ -25,7 +32,6 @@ const AboutSection = () => {
         <div className="grid grid-cols-2 w-[55%] gap-x-6 items-center">
           <img
             src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about_bwl9hy.jpg"
-            className="h-[120%]"
             alt=""
           />
           <img
