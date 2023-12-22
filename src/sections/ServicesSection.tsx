@@ -25,14 +25,14 @@ const services = [
 const ServicesSection = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center min-h-screen"
+      className="flex flex-col items-center justify-center min-h-screen py-16"
       id="services"
     >
       <div className="container mb-16">
         <p className="font-bold">Our Services</p>
         <div className="bg-gray-800 w-[40px] h-[5px]">&nbsp;</div>
       </div>
-      <div className="grid grid-cols-3 container gap-16">
+      <div className="grid md:grid-cols-3 container gap-16">
         {services.map((service, i) => (
           <div key={i}>
             <img
