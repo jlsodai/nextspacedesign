@@ -98,11 +98,11 @@ const HeroSection = ({ links }: Props) => {
             </div>
 
             <h1 className="flex-1 order-1 -sm:text-center -sm:mt-8">
-              <a
-                href="#"
-                className="px-8 hover:bg-primary text-white bg-gray-800 py-3"
-              >
-                Contact Us
+              <a href="#">
+                <span className="px-8 hover:bg-primary text-white bg-gray-800 py-3">
+                  Contact Us
+                </span>
+                <span className="bg-[#ededed] p-3">→</span>
               </a>
             </h1>
           </div>
