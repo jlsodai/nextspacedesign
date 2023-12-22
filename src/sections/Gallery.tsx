@@ -20,7 +20,7 @@ const Gallery = () => {
         <div className="bg-gray-800 w-[40px] h-[5px]">&nbsp;</div>
       </div>
       <div className="container mx-auto px-5 py-2 lg:px-32 flex items-center">
-        <div className="gap-8 columns-3">
+        <div className="gap-8 columns-2 md:columns-3">
           {gallery.map((imgUrl, i) => (
             <img key={i} className="w-full mb-6 h-auto" src={imgUrl} />
           ))}
