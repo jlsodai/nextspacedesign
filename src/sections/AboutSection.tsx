@@ -3,8 +3,18 @@
 const AboutSection = () => {
   return (
     <section className="bg-[#FAFAFA] min-h-screen flex" id="about">
-      <div className="container flex items-center -md:my-16">
-        <div className="pr-24 w-[45%]">
+      <div className="container md:flex items-center -md:my-16">
+        <div className="grid grid-cols-2 lg:w-[55%] gap-x-6 items-center order-2 -sm:mb-8">
+          <img
+            src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about_bwl9hy.jpg"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about2_p3usah.jpg"
+            alt=""
+          />
+        </div>
+        <div className="lg:pr-24 lg:w-[45%]">
           <p className="font-bold">About Us</p>
           <div className="bg-gray-800 w-[40px] h-[5px]">&nbsp;</div>
 
@@ -28,16 +38,6 @@ const AboutSection = () => {
             the manufacturing process, the installation and after sales
             services.
           </p>
-        </div>
-        <div className="grid grid-cols-2 w-[55%] gap-x-6 items-center">
-          <img
-            src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about_bwl9hy.jpg"
-            alt=""
-          />
-          <img
-            src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about2_p3usah.jpg"
-            alt=""
-          />
         </div>
       </div>
     </section>
