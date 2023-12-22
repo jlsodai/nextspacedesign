@@ -17,15 +17,15 @@
 }
 
 .herohalf {
-  background: linear-gradient(to left, #ededed 55%, white 55%);
+  background: linear-gradient(to left, #ededed 55%, transparent 55%);
 }
 
 .bgover {
-  background: linear-gradient(to left, #ededed 25%, white 25%);
+  background: linear-gradient(to left, #ededed 25%, transparent 25%);
 }
 
 .heroimg {
-  background: linear-gradient(to left, #ed8100 55%, white 55%);
+  background: linear-gradient(to left, #ed8100 55%, transparent 55%);
 }
 
 .glassmorphism {
