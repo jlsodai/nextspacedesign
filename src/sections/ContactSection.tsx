@@ -20,6 +20,12 @@ const ContactSection = () => {
           name="contact"
           data-netlify="true"
         >
+          <input
+            type="hidden"
+            name="subject"
+            data-remove-prefix
+            value="Form submission from website"
+          />
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <label
