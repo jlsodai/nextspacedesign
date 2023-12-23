@@ -2,21 +2,29 @@
 
 const AboutSection = () => {
   return (
-    <section className="bg-[#FAFAFA] flex py-24" id="about">
-      <div className="container md:flex items-center -md:my-16">
-        <div className="grid grid-cols-2 lg:w-[55%] gap-x-6 items-center order-2 -sm:mb-8">
-          <img
-            src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about_bwl9hy.jpg"
-            alt=""
-          />
-          <img
-            src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about2_p3usah.jpg"
-            alt=""
-          />
+    <section className="bg-[#FAFAFA] flex py-16 md:py-24" id="about">
+      <div className="container md:flex items-center">
+        <div className="order-2 lg:w-[55%]">
+          <div className="block md:hidden mb-8">
+            <p className="font-bold">About Us</p>
+            <div className="bg-gray-800 w-[40px] h-[5px]">&nbsp;</div>
+          </div>
+          <div className="grid grid-cols-2 gap-x-6 items-center -sm:mb-8">
+            <img
+              src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about_bwl9hy.jpg"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about2_p3usah.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="lg:pr-24 lg:w-[45%]">
-          <p className="font-bold">About Us</p>
-          <div className="bg-gray-800 w-[40px] h-[5px]">&nbsp;</div>
+          <div className="hidden md:block">
+            <p className="font-bold">About Us</p>
+            <div className="bg-gray-800 w-[40px] h-[5px]">&nbsp;</div>
+          </div>
 
           <h2 className="mt-8 mb-4">Excellence and professionalism</h2>
           <p>

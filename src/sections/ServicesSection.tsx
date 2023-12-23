@@ -25,7 +25,7 @@ const services = [
 const ServicesSection = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center py-24"
+      className="flex flex-col items-center justify-center py-8 md:py-24"
       id="services"
     >
       <div className="container mb-16">
