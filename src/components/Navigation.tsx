@@ -38,7 +38,7 @@ const Navigation = () => {
           ))}
         </div> */}
         <nav className="md:mb-4">
-          <div className="max-w-screen-xl min-w-[300px] flex flex-wrap items-center justify-end mx-auto -md:relative">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-end mx-auto -md:relative">
             <button
               data-collapse-toggle="navbar-default"
               type="button"
@@ -68,7 +68,7 @@ const Navigation = () => {
             <div
               className={`${
                 mobileMenu ? "" : "hidden"
-              } w-full md:block md:w-auto -md:absolute top-6`}
+              } w-full md:block md:w-auto -md:absolute top-6 min-w-[300px]`}
               id="navbar-default"
             >
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg -md:bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
