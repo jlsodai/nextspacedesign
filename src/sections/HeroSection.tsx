@@ -1,4 +1,5 @@
 "use client";
+import Navigation from "@/components/Navigation";
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -43,40 +44,7 @@ const HeroSection = ({ links }: Props) => {
   return (
     <>
       <section className="bgover min-h-screen flex flex-col" id="home">
-        <header className="container py-4 flex justify-between items-center herohalf">
-          <Link href="/" className="">
-            <img
-              src="https://static.wixstatic.com/media/6f054d_1ad5de06933947f889a89a509317c550~mv2.jpeg"
-              width="300px"
-              alt="Logo"
-            />
-          </Link>
-          <div className="-sm:hidden my-3">
-            <div className="text-right mb-2">Call Us: +233 20 502 1111</div>
-            <div className="flex -sm:mt-8 text-primary -sm:justify-center space-x-12 mb-4 divide-x font-bold">
-              {/* {links.map((link, i) => (
-                <Link
-                  href={link.url}
-                  className="px-6 hover:bg-primary hover:text-white bg-gray-50 py-2 rounded-md"
-                  key={i}
-                  onClick={handleScroll}
-                >
-                  {link.title}
-                </Link>
-              ))} */}
-              {links.map((link, i) => (
-                <Link
-                  href={link.url}
-                  className="hover:underline"
-                  key={i}
-                  onClick={handleScroll}
-                >
-                  {link.title}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </header>
+        <Navigation />
 
         <div className="flex flex-1 items-center bg-cover bg-[url('https://res.cloudinary.com/dmaestro/image/upload/v1703185993/kitchen_sttepa.jpg')]">
           <div className="flex flex-1 py-12 text-gray-800 container items-center">

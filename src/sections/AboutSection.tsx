@@ -2,7 +2,7 @@
 
 const AboutSection = () => {
   return (
-    <section className="bg-[#FAFAFA] min-h-screen flex" id="about">
+    <section className="bg-[#FAFAFA] flex py-24" id="about">
       <div className="container md:flex items-center -md:my-16">
         <div className="grid grid-cols-2 lg:w-[55%] gap-x-6 items-center order-2 -sm:mb-8">
           <img

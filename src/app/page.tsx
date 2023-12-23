@@ -17,10 +17,6 @@ const page = () => {
   return (
     <>
       <HeroSection links={links} />
-      <AboutSection />
-      <ServicesSection />
-      <Gallery />
-      <Footer />
     </>
   );
 };
