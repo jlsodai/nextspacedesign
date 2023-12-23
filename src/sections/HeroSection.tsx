@@ -70,7 +70,7 @@ const HeroSection = ({ links }: Props) => {
                 <span className="px-8 hover:bg-primary text-white bg-gray-800 py-3">
                   Contact Us
                 </span>
-                <span className="bg-[#ededed] p-3">→</span>
+                <span className="bg-white md:bg-[#ededed] p-3">→</span>
               </Link>
             </h1>
           </div>
