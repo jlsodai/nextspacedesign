@@ -46,7 +46,7 @@ const HeroSection = ({ links }: Props) => {
       <section className="bgover min-h-screen flex flex-col" id="home">
         <Navigation />
 
-        <div className="flex flex-1 items-center bg-cover bg-[url('https://res.cloudinary.com/dmaestro/image/upload/v1703185993/kitchen_sttepa.jpg')]">
+        <div className="flex flex-1 items-center bg-cover bg-[url('https://res.cloudinary.com/dmaestro/image/upload/v1703770405/solidWoodBg_k4qv7e.jpg')]">
           <div className="flex flex-1 py-12 text-gray-800 container items-center">
             <div className="bg-white/80 p-8 lg:p-16 space-y-2 lg:space-y-4 h-full">
               <h2 className="font-bold text-3xl lg:text-7xl">
