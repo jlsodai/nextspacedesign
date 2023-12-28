@@ -60,9 +60,9 @@ const HeroSection = ({ links }: Props) => {
 
         <div className="lg:bg-transparent  bg-[#ededed]">
           <div className="py-10 herohalf container lg:flex items-center">
-            <div className="lg:w-[45%] md:text-right order-2">
+            <div className="lg:w-[40%] md:text-right order-2">
               We are manufacturers of wood solutions for all kinds of spaces:
-              cabinetry, furniture and all carpentry designs.
+              kitchens, wardrobes, and and all cabinetry designs.
             </div>
 
             <h1 className="flex-1 order-1 -sm:text-center -sm:mt-8">
