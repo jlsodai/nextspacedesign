@@ -1,8 +1,8 @@
 import React from "react";
 
-const PageTitle = ({ title = "", img = "" }) => {
+const PageTitle = ({ title = "" }) => {
   return (
-    <section className={"bg-cover bg-[url(" + img + ")]"}>
+    <section className="bg-primary">
       <div className="container h-56 text-white flex items-center">
         <h2 className="text-5xl">{title}</h2>
       </div>

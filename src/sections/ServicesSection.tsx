@@ -35,13 +35,13 @@ const ServicesSection = () => {
       <div className="grid md:grid-cols-3 container gap-16">
         {services.map((service, i) => (
           <div key={i}>
+            <h2 className="my-4">{service.title}</h2>
             <img
               src={service.imgUrl}
               className="w-full object-contain h-[300px]"
               alt=""
             />
-            <h2 className="my-4">{service.title}</h2>
-            <p>{service.desc}</p>
+            <p className="mt-4">{service.desc}</p>
           </div>
         ))}
       </div>
