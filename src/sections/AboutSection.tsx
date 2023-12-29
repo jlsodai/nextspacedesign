@@ -9,7 +9,7 @@ const AboutSection = () => {
             <p className="font-bold">About Us</p>
             <div className="bg-gray-800 w-[40px] h-[5px]">&nbsp;</div>
           </div>
-          <div className="grid grid-cols-2 gap-x-6 items-center -sm:mb-8">
+          {/* <div className="grid grid-cols-2 gap-x-6 items-center -sm:mb-8">
             <img
               src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about_bwl9hy.jpg"
               alt=""
@@ -18,7 +18,7 @@ const AboutSection = () => {
               src="https://res.cloudinary.com/dmaestro/image/upload/v1703188234/kitchen_about2_p3usah.jpg"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
         <div className="lg:pr-24 lg:w-[45%]">
           <div className="hidden md:block">
